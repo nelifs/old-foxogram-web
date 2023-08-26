@@ -6,6 +6,4 @@ services:
     rootDir: .
     buildCommand: npm run build
     startCommand: npm run start
-    domains:
-      - foxogram.render.com
-    
+

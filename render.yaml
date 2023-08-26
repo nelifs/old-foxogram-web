@@ -1,0 +1,11 @@
+services:
+  - type: web
+    runtime: node
+    name: foxogram
+    repo: https://github.com/nelifs/foxogram.git
+    rootDir: .
+    buildCommand: npm run build
+    startCommand: npm run start
+    domains:
+      - foxogram.render.com
+    
